@@ -1,0 +1,47 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  max-width: 920px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 100px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+hr {
+  margin-top: 100px;
+}
+
+a, a:hover {
+  color: #333;
+}
+
+#nav.affix {
+  position: static;
+}
+
+@media (min-width: 768px) {
+  .nav .active {
+    font-weight: bold; ;
+  }
+
+  #nav.affix {
+    position: fixed;
+    top: 0;
+  }
+
+  .nav>li>a:hover,.nav>li>a:focus{
+    background-color:#ffffff;
+    font-size:130%;
+  }
+
+}
